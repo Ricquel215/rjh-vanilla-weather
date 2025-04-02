@@ -12,15 +12,15 @@
   <body>
     <div class="weather-app">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="Enter a city" required class="seacrh-form-input"/>
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="Enter a city" required id="seacrh-form-input" class="seacrh-form-input"/>
             <input type="submit" value="Search" class="search-form-button" />
         </form>
     </header>
     <main>
         <div class="weather-app-data">
         <div>
-        <h1 class="weather-app-city">Chicago</h1>
+        <h1 class="weather-app-city" id="city">Chicago</h1>
         <p class="weather-app-details">
             Tuesday 14:49, scattered clouds
             <br />
@@ -38,5 +38,6 @@
       This project was coded by <a href="https://github.com/Ricquel215"> Ricquel Harper</a>, is <a href="https://github.com/Ricquel215?tab=repositories"> open-sourced on GitHub</a> and <a href="https://rjh-vanilla-weather.netlify.app/">hosted on Netlify</footer> 
     </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
